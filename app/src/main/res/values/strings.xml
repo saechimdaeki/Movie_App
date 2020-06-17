@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">movie_MVVM</string>
+    <string name="apikey">9fd9c956098d9dd808b52189bc9e4630</string>
 </resources>
