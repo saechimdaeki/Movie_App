@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btn.setOnClickListener{
             val intent= Intent(this,singleMovie::class.java)
-            intent.putExtra("id",299534)
-            //id 값 419704 옆집누나의맛 (개요가 없는 id값 이기에 memo) 다른의도 x
+            intent.putExtra("id",419704)
+            //id 값 660039 옆집누나의맛 (개요가 없는 id값 이기에 memo) 다른의도 x
             this.startActivity(intent)
         }
     }
