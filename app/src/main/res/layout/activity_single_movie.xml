@@ -62,7 +62,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Movie_ INFO"
+                        android:text="영화 상세 정보"
                         android:fontFamily="@font/maple_light"
                         android:textStyle="bold"
                         android:textSize="13dp"/>
@@ -176,7 +176,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="Overview "
+                    android:text="영화 개요 "
                     android:textSize="12dp"
                     android:fontFamily="@font/recipekorea"
                     android:textStyle="bold"/>
