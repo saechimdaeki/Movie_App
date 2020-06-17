@@ -55,8 +55,8 @@ class singleMovie : AppCompatActivity() {
         movie_overview.text=it.overview
         movie_runtime.text=it.runtime.toString()+"분"
         val formatCurrency=NumberFormat.getCurrencyInstance(Locale.KOREA)
-        movie_budget.text="예산"+formatCurrency.format(it.budget)+"원"
-        movie_revenue.text="수익"+formatCurrency.format(it.revenue)+"원"
+        movie_budget.text=formatCurrency.format(it.budget)+"원"
+        movie_revenue.text=formatCurrency.format(it.revenue)+"원"
         val movieposter = POSTER_BASE_URL+it.posterPath
         Glide.with(this)
             .load(movieposter)

@@ -10,7 +10,8 @@ import java.util.concurrent.TimeUnit
 const val API_KEY = "9fd9c956098d9dd808b52189bc9e4630"
 const val BASE_URL = "https://api.themoviedb.org/3/"
 const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w342"
-
+const val First_page=1
+const val post_per_page=20
 object Client {
     fun getClient(): TheMovieDBInterface {
         val requestInterceptor = Interceptor { chain ->

@@ -76,7 +76,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
                         android:fontFamily="@font/mapo"
-                        android:text="Release Date: "
+                        android:text="개봉 날짜: "
                         android:textSize="12dp"
                         android:textStyle="bold"/>
                     <TextView
@@ -96,7 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Rating: "
+                        android:text="평점: "
                         android:textSize="12dp"
                         android:fontFamily="@font/mapo"
                         android:textStyle="bold"/>
@@ -117,7 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Runtime: "
+                        android:text="상영시간: "
                         android:textSize="12dp"
                         android:fontFamily="@font/mapo"
                         android:textStyle="bold"/>
@@ -138,7 +138,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Budget: "
+                        android:text="예산: "
                         android:textSize="12dp"
                         android:fontFamily="@font/recipekorea"
                         android:textStyle="bold"/>
@@ -159,7 +159,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Revenue: "
+                        android:text="수익: "
                         android:fontFamily="@font/recipekorea"
                         android:textSize="12dp"
                         android:textStyle="bold"/>
