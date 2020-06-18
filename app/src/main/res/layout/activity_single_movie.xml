@@ -43,22 +43,26 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_margin="9dp">
+
                     <TextView
                         android:id="@+id/movie_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="movie"
                         android:fontFamily="@font/maple_bold"
-                        android:textStyle="bold"
-                        android:textSize="18dp"/>
+                        android:text="movie"
+                        android:textColor="#80DEEA"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/movie_tagline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sub_title"
                         android:fontFamily="@font/maple_bold"
-                        android:textStyle="bold"
-                        android:textSize="14dp"/>
+                        android:text="sub_title"
+                        android:textColor="#FFAB91"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -172,14 +176,17 @@
                         android:text=""
                         android:textSize="12dp"/>
                 </LinearLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text="영화 개요 "
-                    android:textSize="12dp"
-                    android:fontFamily="@font/recipekorea"
-                    android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/recipekorea"
+                        android:shadowColor="#FFFFFF"
+                        android:text="영화 개요 "
+                        android:textColor="#43A047"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
                 <TextView
                     android:id="@+id/movie_overview"
                     android:layout_width="wrap_content"
